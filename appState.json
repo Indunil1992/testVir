@@ -1,0 +1,107 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "5082dd7c-8173-4f46-a9c0-834385388215": {
+        "id": "5082dd7c-8173-4f46-a9c0-834385388215",
+        "parent": null,
+        "name": "testVir",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "1c3a3688-f1b1-4212-9419-ab251af2c0fd"
+        ],
+        "isRemovable": false,
+        "filePath": "testVir"
+      },
+      "1c3a3688-f1b1-4212-9419-ab251af2c0fd": {
+        "id": "1c3a3688-f1b1-4212-9419-ab251af2c0fd",
+        "parent": "5082dd7c-8173-4f46-a9c0-834385388215",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testVir/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1sachithraAPInameget",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "rootNode": "5082dd7c-8173-4f46-a9c0-834385388215",
+    "openFiles": [
+      "1c3a3688-f1b1-4212-9419-ab251af2c0fd"
+    ],
+    "currentFileId": "1c3a3688-f1b1-4212-9419-ab251af2c0fd",
+    "resources": {
+      "apigusEast1sachithraAPInameget": {
+        "name": "apigusEast1sachithraAPInameget",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/",
+          "resourceName": "",
+          "resourceId": "zrjp6rdv3b",
+          "restMethod": "GET",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "Test0",
+          "stageDeploymentId": "27ro7m",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "testVir",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1579678473085
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "testVir",
+      "url": "https://github.com/Indunil1992/testVir"
+    }
+  }
+}
